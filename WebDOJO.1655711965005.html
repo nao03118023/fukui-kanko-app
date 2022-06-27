@@ -1,0 +1,34 @@
+<script type="module">
+import { bg, show } from "https://js.sabae.cc/egadv.js";
+await bg(33);
+for(;;){
+      let a = await show("ここはどこでしょう？", ["富山", "石川", "福井"]);
+      if (a == "福井"){
+      await show("正解！養浩館庭園です！");
+      break;
+      }  else  {
+      await show("違うよ！");
+      }
+}
+await bg(253);
+for(;;){
+      let a = await show("ここはどこでしょう？", ["富山", "石川", "福井"]);
+      if (a == "福井"){
+      await show("正解！冬の荒島岳です！");
+      break;
+      }  else  {
+      await show("違うよ！");
+      }
+}
+await bg(3730);
+for(;;){
+      let a = await show("ここはどこでしょう？", ["富山", "石川", "福井"]);
+      if (a == "福井"){
+      await show("正解！大野市の街並みです！");
+      break;
+      }  else  {
+      await show("違うよ！");
+      }
+}
+await show("あなたは福井マスター！");
+</script>
